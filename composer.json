@@ -1,0 +1,24 @@
+{
+  "name": "toulen/tspider",
+  "keywords": ["spider"],
+  "description": "spider with php cli",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yan Tao",
+      "email": "317136305@qq.com",
+      "homepage": "http://www.mqman.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "zendframework/zend-dom": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tspider\\": "src/",
+      "TspiderTest\\": "test/"
+    }
+  }
+}
